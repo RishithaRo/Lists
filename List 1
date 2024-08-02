@@ -1,0 +1,11 @@
+# Create a list with elements 1,2,3,4,5 and then using for loop, print the list which contains squares of 1,2,3,4,5.
+
+list1=[1,2,3,4,5]
+squared_list=[]
+for i in list1:
+	squared_list=squared_list+[i**2]
+print(squared_list)
+'''_____________OUTPUT_________________
+[1, 4, 9, 16, 25]
+
+[Program finished]'''
