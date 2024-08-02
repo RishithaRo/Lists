@@ -1,0 +1,48 @@
+list=[1,2,3,4]
+print(type(list))
+#indexing
+print(list[0])
+print(list[1])
+print(list[2])
+print(list[3])
+
+#Slicing
+l1=list[1:3]
+print(l1)
+print(list[::-1])
+print(list[::])
+
+#concatenation
+print(list+l1)
+
+#Repetition
+print(l1*3)
+
+#Membership
+a=2 in l1
+print(a)
+print(3 not in list)
+
+#Comparison
+b=l1==list
+print(b)
+
+#Identity operator
+print(l1 is list)
+'''________________OUTPUT_________________
+<class 'list'>
+1
+2
+3
+4
+[2, 3]
+[4, 3, 2, 1]
+[1, 2, 3, 4]
+[1, 2, 3, 4, 2, 3]
+[2, 3, 2, 3, 2, 3]
+True
+False
+False
+False
+
+[Program finished]'''
