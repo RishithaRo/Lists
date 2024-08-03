@@ -1,0 +1,8 @@
+# APPEND METHOD
+# SYNTAX:-- list_name.append(element)
+fruits=["Apple","Banana","Cherry","Grapes"]
+fruits.append("Mango")
+print(fruits)
+'''----------------------OUTPUT---------------------------------
+['Apple', 'Banana', 'Cherry', 'Grapes', 'Mango']
+'''
