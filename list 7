@@ -1,0 +1,22 @@
+# write a program to create any 2 lists with different elements and add the 2nd list to the first one as a single element of list datatype using append method.
+# extract individual elements of list item in list1 using for loop.
+list1=[1,2,3,4,5]
+list2=[6,7,8,9]
+list3=[]
+list1.append(list2)
+print(list1)
+for i in list1:
+    if type(i)==type(list1):
+        d=i.copy()
+        print("The list item is:",d)
+
+for n in d:
+    print(n)
+'''-------------------------OUTPUT---------------------------------
+[1, 2, 3, 4, 5, [6, 7, 8, 9]]
+The list item is: [6, 7, 8, 9]
+6
+7
+8
+9
+'''
