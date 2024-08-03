@@ -1,0 +1,7 @@
+# Python append method is used to add an element to the end of the list.
+my_list=[1,2,3,4,5]
+my_list.append(6)
+print(my_list)
+'''----------------------------OUTPUT---------------------------
+[1, 2, 3, 4, 5, 6]
+'''
