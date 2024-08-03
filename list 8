@@ -1,0 +1,22 @@
+# Python copy() method
+# syntax:-- variable.copy()
+# In python, Assignment statements do not copy objects.
+# When we use the = operator, It only creates a new variable that shares the reference of the original object.
+# Inorder to create real copies or clones, we use this copy() method
+a=[1,2,3,4,5]
+b=a
+print(a)
+print(b)
+print(id(a)) # The id of both a and b will be same when we use = operator
+print(id(b))
+a.append(9) #As the memory location is same, if we do changes in one list, the other list will also get affected
+print(a)    # This is called as "side effect"
+print(b)
+'''----------------------------------OUTPUT------------------------------------------------
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+2935600942656
+2935600942656
+[1, 2, 3, 4, 5, 9]
+[1, 2, 3, 4, 5, 9]
+'''
