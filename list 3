@@ -1,0 +1,11 @@
+# Python list methods are built in methods used to perform operations on python lists
+# Syntax:- variable.method(parameters)
+# Python append method
+# It is mainly used to add an element to the end of the list.
+list=[2,3,4,5]
+a=list.append(6)
+print(a)
+''' Here, you will get the output as none . The reason you are getting none as the output is that the append() method in python does not return any value; It just modifies the list in place
+Therefore, the value of a is none'''
+'''-------------------------OUTPUT--------------------------------
+None'''
