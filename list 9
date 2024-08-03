@@ -1,0 +1,25 @@
+# To avoid the side effect due to = , we use copy method to create a shallow copy of a list
+a=[1,2,3,4,5]
+b= a.copy()
+print(a)
+print(b)
+print(id(a)) #As we use copy() method, the memory location will be different for two objects
+print(id(b)) #So, changes in one list does not affect the other list.
+a.append(9)
+print(a)
+print(b)
+print(id(a))
+print(a==b)
+print(a is b)
+
+'''---------------------------------OUTPUT----------------------------------------------
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+2229590462016
+2229546707840
+[1, 2, 3, 4, 5, 9]
+[1, 2, 3, 4, 5]
+2229590462016
+False
+False
+'''
