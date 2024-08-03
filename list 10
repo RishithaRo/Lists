@@ -1,0 +1,19 @@
+# To avoid the side effect when we use = operator to create a copy of an existing list
+# We can also perform it through slicing
+a=[1,2,3,4,5]
+b=a[:]
+print(a)
+print(b)
+print(id(a))
+print(id(b))
+a.append(9)
+print(a)
+print(b)
+'''------------------------------OUTPUT--------------------------------------
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+1914967329664
+1914923838336
+[1, 2, 3, 4, 5, 9]
+[1, 2, 3, 4, 5]
+'''
