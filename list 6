@@ -1,0 +1,21 @@
+# You can also add another list object into a list as a single element of it .
+# Using append method, if you send list or tuple or any bulk datatype as the argument , the total bulk data will be added as a single element of that list
+list1=[1,2,3,4,5]
+list2=[6,7,8,9]
+list1.append(list2)
+print(list1)   #output: [1,2,3,4,5,[6,7,8,9]]
+print(list1[0])
+print(list1[1])
+print(list1[2])
+print(list1[3])
+print(list1[4])
+print(list1[5])
+'''----------------------OUTPUT--------------------------------
+[1, 2, 3, 4, 5, [6, 7, 8, 9]]
+1
+2
+3
+4
+5
+[6, 7, 8, 9]
+'''
