@@ -1,0 +1,12 @@
+# Clear method
+# SYNTAX:-- list_name.clear()
+# This method does not takes any parameters.
+# This method also does not return anything
+numbers=[1,2,3,4,5,6,"grapes",'r',2.5,[1,2,3],(5,7,8),{1:"one",2:"Two"},{1,2,3}]
+print(numbers)
+numbers.clear()
+print(numbers)
+'''-------------------------------OUTPUT----------------------------
+[1, 2, 3, 4, 5, 6, 'grapes', 'r', 2.5, [1, 2, 3], (5, 7, 8), {1: 'one', 2: 'Two'}, {1, 2, 3}]
+[]
+'''
