@@ -1,0 +1,13 @@
+# del method
+# this del method is used to delete the entire identity of a list including its memory
+a=[1,2,3,4,5]
+print("Before using del method:",a)
+del a
+print(a)
+'''---------------------OUTPUT--------------------------------------
+Before using del method: [1, 2, 3, 4, 5]
+Traceback (most recent call last):
+  File "D:/Python programming/program13.py", line 6, in <module>
+    print(a)
+NameError: name 'a' is not defined
+'''
