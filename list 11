@@ -1,0 +1,9 @@
+# Clear method
+# This method is used to remove all the items from the list.
+# It removes all the elements from the list and makes it empty.
+lis1=[1,2,3,4,5]
+lis1.clear()
+print(lis1)
+'''------------------------OUTPUT---------------------------------
+[]
+'''
