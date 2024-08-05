@@ -1,0 +1,8 @@
+# how to clear the elements of a list using del method ?
+# you can do this by slicing
+a=[1,2,3,4,5]
+del a[:]
+print(a)
+'''------------------------OUTPUT--------------------------------------
+[]
+'''
