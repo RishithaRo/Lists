@@ -1,0 +1,10 @@
+# Count method
+# This is used to count number of times a particular element occured inside a list
+# SYNTAX:-- list_name.count(element)
+# This method returns the number that tells number of times that an element occured in the list
+a=[1,2,3,4,5,1]
+k = a.count(1)
+print(k)
+'''-------------------------OUTPUT--------------------------------
+2
+'''
