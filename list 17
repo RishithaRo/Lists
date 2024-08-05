@@ -1,0 +1,9 @@
+fruits=["Apple","Banana","Mango","Pineapple","grapes","Apple","Apple"]
+print(fruits.count("Apple"))
+# If the element that you want to count is not present in the list, it returns zero.
+a=[1,2,3,4,5]
+print(a.count(8))
+'''----------------------------OUTPUT--------------------------------
+3
+0
+'''
